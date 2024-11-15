@@ -1,0 +1,58 @@
+header {
+    background-color: lightgoldenrodyellow;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: darkgreen;
+}
+
+.przyciski {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+div {
+    background-color: white;
+    border: 5px outset brown;
+    text-align: center;
+    width: 150px;
+    margin: 20px;
+    padding: 10px;
+}
+
+.glowny {
+    display: flex;
+}
+
+aside {
+    background-color: lightgray;
+    width: 20%;
+    padding: 25px;
+}
+
+footer {
+    background-color: greenyellow;
+    text-align: right;
+    padding: 5px;
+}
+
+.slimaki {
+    color: darkred;
+}
+
+.ryby {
+    color: rgb(0, 162, 255);
+}
+
+div:hover {
+    background-color: gold;
+    cursor: pointer;
+}
+
+a:visited {
+    color: darkred;
+}
